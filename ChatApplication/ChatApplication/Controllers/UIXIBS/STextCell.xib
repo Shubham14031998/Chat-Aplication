@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="106" id="KGk-i7-Jjw" customClass="STextCell" customModule="App_School_Online" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="394" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="394" height="106"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vvc-TO-10d">
+                        <rect key="frame" x="113" y="5" width="276" height="96"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="You" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asx-r0-Fq4">
+                                <rect key="frame" x="8" y="5" width="258" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.74509803921568629" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome to LOL Chat, Pease respect each other and maintain a Healthy Enviroment" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMT-Vg-MCi">
+                                <rect key="frame" x="8" y="57" width="260" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.42745098039215684" green="0.69803921568627447" blue="0.94901960784313721" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="asx-r0-Fq4" secondAttribute="trailing" constant="10" id="HVR-GC-vC6"/>
+                            <constraint firstItem="fMT-Vg-MCi" firstAttribute="top" secondItem="asx-r0-Fq4" secondAttribute="bottom" constant="5" id="NBa-eT-JQP"/>
+                            <constraint firstItem="asx-r0-Fq4" firstAttribute="leading" secondItem="fMT-Vg-MCi" secondAttribute="leading" id="VUW-XT-eqY"/>
+                            <constraint firstAttribute="trailing" secondItem="fMT-Vg-MCi" secondAttribute="trailing" constant="8" id="aty-Re-T81"/>
+                            <constraint firstItem="fMT-Vg-MCi" firstAttribute="leading" secondItem="vvc-TO-10d" secondAttribute="leading" constant="8" id="hRv-JV-x1k"/>
+                            <constraint firstAttribute="bottom" secondItem="fMT-Vg-MCi" secondAttribute="bottom" constant="10" id="hps-rU-Ioj"/>
+                            <constraint firstItem="asx-r0-Fq4" firstAttribute="top" secondItem="vvc-TO-10d" secondAttribute="top" constant="5" id="o46-km-ynu"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vvc-TO-10d" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.7" id="S05-Bn-whH"/>
+                    <constraint firstAttribute="trailing" secondItem="vvc-TO-10d" secondAttribute="trailing" constant="5" id="ahT-uW-IWk"/>
+                    <constraint firstAttribute="bottom" secondItem="vvc-TO-10d" secondAttribute="bottom" constant="5" id="gqi-EK-VB4"/>
+                    <constraint firstItem="vvc-TO-10d" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="rnc-mb-j28"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="txtMessage" destination="fMT-Vg-MCi" id="9oS-qh-pLp"/>
+            </connections>
+            <point key="canvasLocation" x="194.20289855072465" y="143.30357142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

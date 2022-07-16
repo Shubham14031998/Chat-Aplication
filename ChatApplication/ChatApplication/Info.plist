@@ -14,7 +14,7 @@
 		</dict>
 	</array>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>EmojiZone Wants to acces microphone to record voice </string>
+	<string>App Wants to acces microphone to record voice </string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

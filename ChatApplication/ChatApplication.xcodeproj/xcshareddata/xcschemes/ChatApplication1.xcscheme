@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D078F222882E303008CBECE"
-               BuildableName = "ChatApplication copy.app"
+               BuildableName = "ChatApplication1.app"
                BlueprintName = "ChatApplication1"
                ReferencedContainer = "container:ChatApplication.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D078F222882E303008CBECE"
-            BuildableName = "ChatApplication copy.app"
+            BuildableName = "ChatApplication1.app"
             BlueprintName = "ChatApplication1"
             ReferencedContainer = "container:ChatApplication.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D078F222882E303008CBECE"
-            BuildableName = "ChatApplication copy.app"
+            BuildableName = "ChatApplication1.app"
             BlueprintName = "ChatApplication1"
             ReferencedContainer = "container:ChatApplication.xcodeproj">
          </BuildableReference>
